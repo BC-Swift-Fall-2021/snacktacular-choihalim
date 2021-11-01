@@ -241,11 +241,15 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" rotateEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybB-sd-hqF">
+                                        <rect key="frame" x="0.0" y="62" width="414" height="180"/>
+                                    </mapView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="5l1-ZS-s5c" secondAttribute="trailing" constant="8" id="142-dC-6iL"/>
                                     <constraint firstItem="ZUS-cQ-4h0" firstAttribute="top" secondItem="TbU-BN-vQ2" secondAttribute="top" constant="8" id="3s3-2X-0Ql"/>
+                                    <constraint firstItem="1Ip-0S-QF0" firstAttribute="top" secondItem="ybB-sd-hqF" secondAttribute="bottom" id="9YC-IL-dyU"/>
                                     <constraint firstItem="sdS-Hk-7Aa" firstAttribute="leading" secondItem="TbU-BN-vQ2" secondAttribute="leading" constant="8" id="BVg-Io-Q9b"/>
                                     <constraint firstItem="PPS-4H-WzN" firstAttribute="top" secondItem="1Ip-0S-QF0" secondAttribute="bottom" constant="6" id="Eba-Ld-v2J"/>
                                     <constraint firstItem="1Ip-0S-QF0" firstAttribute="top" secondItem="TbU-BN-vQ2" secondAttribute="top" constant="242" id="FR0-Vf-8Pu"/>
@@ -255,10 +259,13 @@
                                     <constraint firstItem="ynF-a5-fNY" firstAttribute="leading" secondItem="TbU-BN-vQ2" secondAttribute="leading" constant="8" id="VX9-Po-iol"/>
                                     <constraint firstAttribute="trailing" secondItem="ZUS-cQ-4h0" secondAttribute="trailing" constant="8" id="XD7-sl-cLn"/>
                                     <constraint firstItem="ynF-a5-fNY" firstAttribute="top" secondItem="ZUS-cQ-4h0" secondAttribute="bottom" constant="2" id="ZlD-qQ-P3T"/>
+                                    <constraint firstAttribute="trailing" secondItem="ybB-sd-hqF" secondAttribute="trailing" id="dbF-yP-8XV"/>
                                     <constraint firstItem="5l1-ZS-s5c" firstAttribute="top" secondItem="1Ip-0S-QF0" secondAttribute="bottom" constant="4" id="hQR-AG-F2S"/>
                                     <constraint firstItem="sdS-Hk-7Aa" firstAttribute="top" secondItem="1Ip-0S-QF0" secondAttribute="bottom" constant="8" id="o13-8N-Avu"/>
+                                    <constraint firstItem="ybB-sd-hqF" firstAttribute="leading" secondItem="TbU-BN-vQ2" secondAttribute="leading" id="qjF-Nw-1wx"/>
                                     <constraint firstItem="5l1-ZS-s5c" firstAttribute="leading" secondItem="fx9-De-95Z" secondAttribute="trailing" constant="8" id="rxW-L2-j9x"/>
                                     <constraint firstItem="PPS-4H-WzN" firstAttribute="leading" secondItem="sdS-Hk-7Aa" secondAttribute="trailing" id="vR1-XP-A1V"/>
+                                    <constraint firstItem="ybB-sd-hqF" firstAttribute="top" secondItem="ynF-a5-fNY" secondAttribute="bottom" constant="2" id="vRT-3s-WFA"/>
                                     <constraint firstItem="fx9-De-95Z" firstAttribute="top" secondItem="1Ip-0S-QF0" secondAttribute="bottom" constant="4" id="vzL-FC-UVo"/>
                                     <constraint firstAttribute="height" constant="380" id="w8e-JW-JYy"/>
                                     <constraint firstAttribute="trailing" secondItem="ynF-a5-fNY" secondAttribute="trailing" constant="8" id="zhR-DU-Je9"/>
@@ -296,6 +303,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="addressTextField" destination="ynF-a5-fNY" id="GQg-Qd-St0"/>
+                        <outlet property="mapView" destination="ybB-sd-hqF" id="DzY-yY-l8M"/>
                         <outlet property="nameTextField" destination="ZUS-cQ-4h0" id="6sW-Q4-mfr"/>
                         <outlet property="ratingLabel" destination="PPS-4H-WzN" id="Ykb-fE-7Gq"/>
                     </connections>
