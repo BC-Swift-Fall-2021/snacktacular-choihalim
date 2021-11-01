@@ -13,6 +13,7 @@
 		7C337329272F3324006ECBBC /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C337328272F3324006ECBBC /* SpotDetailViewController.swift */; };
 		7C6A0360272F658A00A6268A /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A035F272F658A00A6268A /* Spot.swift */; };
 		7C6A0362272F6ECC00A6268A /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A0361272F6ECC00A6268A /* UIViewController+alert.swift */; };
+		7C6A0364272F748800A6268A /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A0363272F748800A6268A /* Spots.swift */; };
 		7CF09B32272F19000026DD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09B31272F19000026DD04 /* AppDelegate.swift */; };
 		7CF09B34272F19000026DD04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09B33272F19000026DD04 /* SceneDelegate.swift */; };
 		7CF09B36272F19000026DD04 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF09B35272F19000026DD04 /* LoginViewController.swift */; };
@@ -29,6 +30,7 @@
 		7C337328272F3324006ECBBC /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 		7C6A035F272F658A00A6268A /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		7C6A0361272F6ECC00A6268A /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		7C6A0363272F748800A6268A /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		7CF09B2E272F19000026DD04 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF09B31272F19000026DD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF09B33272F19000026DD04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				7CF09B31272F19000026DD04 /* AppDelegate.swift */,
 				7CF09B33272F19000026DD04 /* SceneDelegate.swift */,
 				7C6A035F272F658A00A6268A /* Spot.swift */,
+				7C6A0363272F748800A6268A /* Spots.swift */,
 				7CF09B35272F19000026DD04 /* LoginViewController.swift */,
 				7C337324272F2B15006ECBBC /* SpotListViewController.swift */,
 				7C337326272F2F0C006ECBBC /* SpotTableViewCell.swift */,
@@ -247,6 +250,7 @@
 				7CF09B36272F19000026DD04 /* LoginViewController.swift in Sources */,
 				7CF09B32272F19000026DD04 /* AppDelegate.swift in Sources */,
 				7C337329272F3324006ECBBC /* SpotDetailViewController.swift in Sources */,
+				7C6A0364272F748800A6268A /* Spots.swift in Sources */,
 				7C337327272F2F0C006ECBBC /* SpotTableViewCell.swift in Sources */,
 				7C6A0360272F658A00A6268A /* Spot.swift in Sources */,
 				7CF09B34272F19000026DD04 /* SceneDelegate.swift in Sources */,

@@ -214,30 +214,30 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5l1-ZS-s5c">
-                                        <rect key="frame" x="316" y="346" width="90" height="29"/>
+                                        <rect key="frame" x="302" y="346" width="104" height="29"/>
                                         <color key="backgroundColor" name="PrimaryColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="90" id="4Fe-fd-Ulr"/>
+                                            <constraint firstAttribute="width" constant="104" id="4Fe-fd-Ulr"/>
                                             <constraint firstAttribute="height" constant="29" id="dmK-2b-LqC"/>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system" title=" Rating">
-                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system" title="Rating">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="13"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fx9-De-95Z">
-                                        <rect key="frame" x="218" y="346" width="90" height="29"/>
+                                        <rect key="frame" x="189" y="346" width="105" height="29"/>
                                         <color key="backgroundColor" name="PrimaryColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="29" id="D3M-Xl-SOS"/>
-                                            <constraint firstAttribute="width" constant="90" id="nNx-mv-5Qg"/>
+                                            <constraint firstAttribute="width" constant="105" id="nNx-mv-5Qg"/>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="camera.fill" catalog="system" title=" Photo">
-                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="13"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                     </button>
